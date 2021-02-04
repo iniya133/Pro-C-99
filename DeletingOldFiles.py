@@ -26,4 +26,4 @@ for root, dirs, files in os.walk(path, topdown=False):
         fol_path = os.path.join(root, i)
         if len(os.listdir(fol_path)) == 0:
             shutil.rmtree(fol_path)
-            print("Your PC Is Now Clean Without Any Unwanted Folders")
+            print("Your PC Is Now Clean Without Any Unwanted Folders") 
